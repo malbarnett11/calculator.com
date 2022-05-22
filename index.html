@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="java.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+		<link rel="styleheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="https://kit.fontawesome.com/920d9f6c70.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	    
+			<div class="header">
+				<h1>Calculator</h1>
+				
+			</div>
+			
+			<form>
+				<div class="container">
+					
+					<div class="row">
+						<div class="col-25">
+							<label for="value1"><h1 class="value">Value 1: </h1></label>
+						</div>
+						
+						<div class="col-75">
+							<input type="text" id="value1">
+						</div> 
+					</div>
+					
+					<div class="row">   
+						<div class="col-25">
+							<label  for="value1"><h1 class="value">Value 2: </h1></label>
+						</div>
+						
+						<div class="col-75">
+							<input type="text" id="value2">
+						</div> 
+					</div>
+					
+					<div class="row">   
+						<div class="col-25">
+							<label  for="operation"><h1 class="value">Operators: </h1></label>
+						</div>
+						
+						<div class="col-75">
+							<select id="operator">
+								<option value="add">Add</option>
+								<option value="min">Minus</option>
+								<option value="div">Divide</option>
+								<option value="mul">Multiply</option>
+								
+							</select>
+						</div>
+					</div><br>
+					<div>
+						<center><button type="button" onclick="calc()">Calculate</button></center>
+					</div>
+				</form><br>
+				
+				<div  id="result" class="result"></div>
+			</div>
+			
+	</div>
+	</body>	
+	
+	<script src="javas.js"></script>
+</html>					
